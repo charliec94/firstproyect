@@ -1,0 +1,68 @@
+.footer{
+    height: 35vh;
+    background-color: $color-primary-light;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);    
+    grid-gap: 2rem;
+    padding: 3rem 25vh;
+
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 300;
+    
+    &__btn{
+        padding-top: 1rem;        
+        color: #fff;
+        &,
+        &:link,
+        &:visited {            
+            text-decoration: #fff;
+            
+        }
+        &:active,
+        &:focus {
+            outline: none;
+            text-decoration: #fff;
+            
+        }
+    }
+    // align-items: flex-start;    
+    &__sitemap{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+        &-header{
+            grid-column: 1 / -1;
+                       
+        }
+    
+    }
+    &__contact{
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+    }
+    &__address{
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+    &__follow{
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+    }
+    &__logo{
+        grid-column: 2 / span 4;
+        fill: #fff;
+        justify-content: center;
+    }
+}
+
+.footer__title{
+    text-transform: uppercase;
+    color: $color-primary;
+    font-weight: 700;
+    font-size: 1.5rem;
+
+}
+

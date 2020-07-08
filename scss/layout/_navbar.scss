@@ -1,0 +1,17 @@
+.header-nav {
+    font-size: 1.4rem;
+    list-style: none;    
+    position: relative;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4%;
+    padding-left: 50%;
+    padding-right: 10%;
+}
+
+li,a {
+    color: #fff;
+    text-decoration: none;
+}

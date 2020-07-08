@@ -1,0 +1,43 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.7;
+}
+.heading-primary {
+    color: #fff;
+    text-transform: uppercase;
+
+    backface-visibility: hidden;
+    margin-bottom: 4rem;
+
+    &--main{
+        display: block;
+        font-size: 5rem;
+        letter-spacing: .3rem;
+    }
+}
+
+.heading-secondary {    
+    color: $color-primary;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+.heading-tertiary {
+    font-size: $default-font-size;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.together__heading{ 
+    color: $color-primary;   
+    display: flex;
+    position: relative;
+    margin-top: 5rem;
+    margin-bottom: 0;
+    padding-right: 3rem;
+    font-size: 3rem;
+    z-index: 2;
+    
+    
+}
